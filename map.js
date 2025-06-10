@@ -468,7 +468,7 @@ const blocks = [
         endY: 740,
         overlayId: "infoOverlay",
         heading: "Zone K: Home Farm",
-        images: ["img/image17.jpg"]
+        images: ["img/image17.webp"]
     },
     {
         startX: 715,
@@ -477,7 +477,7 @@ const blocks = [
         endY: 821,
         overlayId: "infoOverlay",
         heading: "Zone A: The Hub",
-        images: ["img/image1.jpeg", "img/image2.jpeg", "img/image3.jpeg", "img/image19.jpg"]
+        images: ["img/image1.webp", "img/image2.webp", "img/image3.webp", "img/image19.webp"]
     },
     {
         startX: 386,
@@ -486,7 +486,7 @@ const blocks = [
         endY: 704,
         overlayId: "infoOverlay",
         heading: "Zone B: Residential & Student Centre",
-        images: ["img/image4.jpg", "img/image5.jpg", "img/image6.jpg"]
+        images: ["img/image4.webp", "img/image5.webp", "img/image6.webp"]
     },
     {
         startX: 187,
@@ -495,7 +495,7 @@ const blocks = [
         endY: 517,
         overlayId: "infoOverlay",
         heading: "Zone C: English & Maths Centre",
-        images: ["img/image7.jpg"]
+        images: ["img/image7.webp"]
     },
     {
         startX: 228,
@@ -504,7 +504,7 @@ const blocks = [
         endY: 575,
         overlayId: "infoOverlay",
         heading: "Zone D: Access to Land Based",
-        images: ["img/image8.jpg"]
+        images: ["img/image8.webp"]
     },
     {
         startX: 360,
@@ -513,7 +513,7 @@ const blocks = [
         endY: 449,
         overlayId: "infoOverlay",
         heading: "Zone E: Horticulture & Landscaping",
-        images: ["img/image9.jpg", "img/image10.jpg", "img/image11.jpg"]
+        images: ["img/image9.webp", "img/image10.webp", "img/image11.webp"]
     },
     {
         startX: 234,
@@ -522,7 +522,7 @@ const blocks = [
         endY: 392,
         overlayId: "infoOverlay",
         heading: "Zone F: The Old Stableyard",
-        images: ["img/image12.jpg", "img/image13.jpg"]
+        images: ["img/image12.webp", "img/image13.webp"]
     },
     {
         startX: 153,
@@ -531,7 +531,7 @@ const blocks = [
         endY: 306,
         overlayId: "infoOverlay",
         heading: "Zone G: Animal Centre",
-        images: ["img/image15.jpg", "img/image16.jpg", "img/image17.jpg"]
+        images: ["img/image15.webp", "img/image16.webp", "img/image17.webp"]
     },
     {
         startX: 134,
@@ -540,7 +540,7 @@ const blocks = [
         endY: 322,
         overlayId: "infoOverlay",
         heading: "Zone H: Sports Centre",
-        images: ["img/image18.jpg"]
+        images: ["img/image18.webp"]
     },
     {
         startX: 371,
@@ -549,7 +549,7 @@ const blocks = [
         endY: 345,
         overlayId: "infoOverlay",
         heading: "Zone J: Land Based Engineering",
-        images: ["img/image14.jpg", "img/image20.jpg"]
+        images: ["img/image14.webp", "img/image20.webp"]
     },
     // Add more blocks if needed
 ];
