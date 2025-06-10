@@ -617,6 +617,7 @@ async function populateOverlay(block) {
     block.images.forEach((src, index) => {
         const img = document.createElement('img');
         img.src = src;
+        img.loading = 'lazy';
         if (index === 0) {
             requestAnimationFrame(() => {
                 img.classList.add('active');
