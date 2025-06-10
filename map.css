@@ -1,0 +1,78 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.Wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: white;
+}
+#canvasContainer {
+  transform: scale(0.74);
+}
+
+#myCanvas {
+  width: 100%;
+  height: 100%;
+}
+
+#infoOverlay {
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 700;
+  top: 475;
+  background-color: rgba(0, 0, 0, 0.85);
+  transition:
+    width 0.8s ease,
+    height 0.8s ease,
+    left 0.8s ease,
+    top 0.8s ease,
+    opacity 0.5s ease;
+  z-index: 100;
+  overflow: hidden;
+  opacity: 1;
+  pointer-events: none;
+}
+
+
+#infoOverlay h2 {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.slider {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: top;
+  position: relative;
+}
+
+.slider img {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  object-fit: cover; /* Fills and crops if needed */
+  opacity: 0;
+  transition: opacity 3s ease;
+  z-index: 0;
+}
+
+.slider img.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+
+
+
+
+
