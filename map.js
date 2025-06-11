@@ -467,7 +467,7 @@ const blocks = [
         startY: 616,
         endY: 740,
         overlayId: "infoOverlay",
-        heading: "Zone K: Home Farm",
+        heading: "Zone K: Home test",
         images: ["img/image17.webp"]
     },
     {
