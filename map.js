@@ -619,9 +619,9 @@ async function populateOverlay(block) {
         img.src = src;
         img.loading = 'lazy';
         if (index === 0) {
-            requestAnimationFrame(() => {
-                img.classList.add('active');
-            });
+          img.addEventListener("load", () => {
+            img.classList.add('active');
+          });
         }
         slider.appendChild(img);
     });
